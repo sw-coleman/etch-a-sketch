@@ -16,14 +16,30 @@ body{
     display: grid;
     height: 500px;
     width: 500px;
+    border: solid 3px black;
   }
 
   .canvas div {
-    border: 2px dotted black;
     box-sizing: border-box;
   }
 
   .info{
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
+  }
+
+  .slider-title{
+    font-weight: bold;
+  }
+
+  .slider-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 5px;
+  }
+
+  .canvas div:hover{
+    background-color: black;
   }

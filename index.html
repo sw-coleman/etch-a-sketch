@@ -8,17 +8,25 @@
     </head>
     <body>
         <div class="flex-container">
-            <div class ="title">
-                <h1>Etch-A-Sketch</h1>
+            <div class="canvas-container">
+                <div class ="title">
+                    <h1>Etch-A-Sketch</h1>
+                </div>   
+            <div class="canvas"></div>   
+            </div>   
+            <div class="sidebar">     
+                <div class="colour-choice">
+                    <div>Choose your colour:</div>
+                    <input type="color" class="colour-selection">
+                </div>
+                <div class="menu">
+                    <div class="slider-menu">
+                        <div class="slider-title">Canvas Size: </div>
+                        <div class="slider-value"></div>
+                    </div>
+                    <input type="range" min="2" max="100" value="16" class="slider">
+                </div> 
             </div>
-            <div class="canvas"></div>
-            <div class="info">Placeholder: Colour selector, eraser, canvas size selector
-            <div class="slider-container">
-                <div class="slider-title">Canvas Size</div>
-                <div class="slider-value"></div>
-            </div>
-            <input type="range" min="2" max="100" value="16" class="slider">
-            </div>
-        </div>
+        </div>    
     </body>
 </html>

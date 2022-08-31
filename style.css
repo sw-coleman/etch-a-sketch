@@ -16,7 +16,8 @@ body{
 .flex-container{
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 50px;
+  margin-top: 25px;
 }
 
 .title h1{
@@ -67,6 +68,24 @@ body{
     align-items: center;
     font-weight: bold;
   }
+
+  .colour-button-1{
+    display: flex;
+    margin-top: 25px;
+    scale: 1.2;
+    flex: wrap;
+    width: 250px;
+    justify-content: space-between;
+  }
+
+  .colour-button-2{
+    display: flex;
+    margin-top: 25px;
+    scale: 1.2;
+    flex: wrap;
+    width: 250px;
+    justify-content: space-between;
+  }
  
   .sidebar{
     display: flex;
@@ -80,3 +99,28 @@ body{
     text-align: right;
   }
   
+button{
+  width: 62px;
+  height: 40px;
+  border: 2px solid black;
+  padding: 0;
+}
+
+#red-btn{
+  background-color: red;
+}
+#green-btn{
+  background-color: green;
+}
+#blue-btn{
+  background-color: blue;
+}
+#black-btn{
+  background-color:  black;
+}
+#white-btn{
+  background-color: white;
+}
+#rbow-btn{
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+}

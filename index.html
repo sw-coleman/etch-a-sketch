@@ -26,13 +26,17 @@
                         <button onclick="changeColour('white')" id="white-btn"></button>
                         <button onclick="changeColour('rainbow')" id="rbow-btn"></button>
                     </div>
+                    <div class ="colour-selection">Current colour: Black</div>
                 </div>
                 <div class="menu">
-                    <div class="slider-menu">
-                        <div class="slider-title">Canvas Size: </div>
-                        <div class="slider-value"></div>
+                    <div class="input-menu">
+                        <div class="input-title">Canvas Size: </div>
+                        <div class="output">16 x 16</div>
                     </div>
-                    <input type="range" min="2" max="100" value="16" class="slider">
+                    <div>
+                        <input type="text" placeholder="Size of board" value="16" onchange="changeSize(this.value)" onchange = "displaySize(this.value)" class="input">
+                        <button class="reset">Reset</button>
+                    </div>
                 </div> 
             </div>
         </div>    

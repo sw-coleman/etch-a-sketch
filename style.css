@@ -17,7 +17,7 @@ body{
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 .title h1{
@@ -58,7 +58,7 @@ body{
     text-align: center;
   }
 
-  .slider-title{
+  .input-title{
     font-weight: bold;
   }
 
@@ -86,6 +86,10 @@ body{
     width: 250px;
     justify-content: space-between;
   }
+
+  .colour-selection{
+    margin-top: 25px;
+  }
  
   .sidebar{
     display: flex;
@@ -95,8 +99,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .slider-menu{
+  .input-menu{
     text-align: right;
+    height: 40px;
   }
   
 button{
@@ -104,6 +109,20 @@ button{
   height: 40px;
   border: 2px solid black;
   padding: 0;
+  margin: 5px;
+}
+
+.reset{
+  background-color: white;
+}
+
+.input{
+  background-color: white;
+  width: 100px;
+  height: 25px;
+  font-size: 18px;
+  margin-right: 10px;
+  border: 2px solid black;
 }
 
 #red-btn{
